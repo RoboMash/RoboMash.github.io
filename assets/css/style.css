@@ -9,7 +9,7 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: Arial, sans-serif;;
   background-color: #040404;
   color: #fff;
   position: relative;
@@ -222,17 +222,17 @@ h1, h2, h3, h4, h5, h6 {
   align-items: center;
   justify-content: space-between;
   padding: 0;
-  font-family: "Poppins", sans-serif;
-  font-size: 16px;
+  font-family: Arial, sans-serif;;
+  font-size: 15px;
   font-weight: 400;
   color: rgba(255, 255, 255, 0.7);
   white-space: nowrap;
   transition: 0.3s;
-  font-weight: 1000;
+  font-weight: 800;
 }
 
 .navbar a i, .navbar a:focus i {
-  font-size: 12px;
+  font-size: 10px;
   line-height: 0;
   margin-left: 5px;
 }
@@ -370,7 +370,7 @@ section .container {
   padding: 0;
   line-height: 1px;
   margin: 0 0 20px 0;
-  letter-spacing: 2px;
+  letter-spacing: 1px;  
   text-transform: uppercase;
   color: #aaaaaa;
   font-family: "Poppins", sans-serif;
@@ -389,7 +389,7 @@ section .container {
 .section-title p {
   margin: 0;
   margin: -15px 0 15px 0;
-  font-size: 36px;
+  font-size: 30px;
   font-weight: 700;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
@@ -655,6 +655,7 @@ section .container {
   display: inline-block;
   font-weight: 600;
   margin-bottom: 10px;
+  text-align: justify;
 }
 
 .resume .resume-item ul {
@@ -663,6 +664,7 @@ section .container {
 
 .resume .resume-item ul li {
   padding-bottom: 10px;
+  text-align: justify;
 }
 
 .resume .resume-item:last-child {
@@ -741,11 +743,12 @@ section .container {
 .services .icon-box h4 a {
   color: #fff;
   font-size: 20px;
+  font-family: Arial, sans-serif;;
 }
 
 .services .icon-box p {
   line-height: 24px;
-  font-size: 14px;
+  font-size: 15px;
   margin-bottom: 0;
 }
 
@@ -1037,7 +1040,7 @@ section .container {
   color: #fff;
   line-height: 24px;
   font-size: 14px;
-  margin: 0 0 0 68px;
+  margin: 0 0 0 52px;
 }
 
 .contact .info-box .social-links {
