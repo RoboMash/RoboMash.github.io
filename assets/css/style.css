@@ -9,7 +9,7 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: Arial, sans-serif;;
+  font-family: Arial, sans-serif;
   background-color: #040404;
   color: #fff;
   position: relative;
@@ -24,7 +24,7 @@ body::before {
   left: 0;
   right: 0;
   top: 0;
-  height: 100vh;
+  height: 120vh;
   z-index: -1;
 }
 
@@ -64,6 +64,10 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
 }
 
+@media (min-width: 1024px) {
+
+
+}
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
@@ -399,12 +403,18 @@ section .container {
   color: #fff;
 }
 
+@media (max-width: 991px) {
+  .section-title h2::after {
+    margin-left: -5px;
+  }
+}
+
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
 .about-me .content h3 {
   font-weight: 700;
-  font-size: 26px;
+  font-size: 20px;
   color: #27656a
 ;
 }
@@ -415,17 +425,18 @@ section .container {
 }
 
 .about-me .content ul li {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
+  margin-left: -15px;
   display: flex;
   align-items: center;
 }
 
 .about-me .content ul strong {
-  margin-right: 10px;
+  margin-right: 20px;
 }
 
 .about-me .content ul i {
-  font-size: 16px;
+  font-size: 13px;
   margin-right: 5px;
   color: #27656a
 ;
@@ -1201,7 +1212,7 @@ section .container {
 @media (max-width: 992px) {
   .credits {
     text-align: center;
-    padding: 10px;
+    padding: 2px;
     background: rgba(0, 0, 0, 0.8);
   }
 }
