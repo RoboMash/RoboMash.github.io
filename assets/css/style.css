@@ -9,7 +9,7 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: Arial, sans-serif;
+  font-family: Comic Sans MS;
   background-color: #040404;
   color: #fff;
   position: relative;
@@ -61,7 +61,7 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Raleway", sans-serif;
+  font-family: Comic Sans MS;
 }
 
 @media (min-width: 1024px) {
@@ -91,7 +91,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0;
   line-height: 1;
   font-weight: 700;
-  font-family: "Poppins", sans-serif;
+  font-family: Comic Sans MS;
 }
 
 #header h1 a, #header h1 a:hover {
@@ -229,8 +229,8 @@ h1, h2, h3, h4, h5, h6 {
   align-items: center;
   justify-content: space-between;
   padding: 0;
-  font-family: Arial, sans-serif;;
-  font-size: 15px;
+  font-family: Comic Sans MS;
+  font-size: 17px;
   font-weight: 400;
   color: rgba(255, 255, 255, 0.7);
   white-space: nowrap;
@@ -239,7 +239,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar a i, .navbar a:focus i {
-  font-size: 10px;
+  font-size: 15px;
   line-height: 0;
   margin-left: 5px;
 }
@@ -359,7 +359,7 @@ section.section-show {
 
 section .container {
   background: rgba(0, 0, 0, 0.9);
-  padding: 30px;
+  padding: 25px;
 }
 
 @media (max-width: 768px) {
@@ -379,8 +379,8 @@ section .container {
   margin: 0 0 20px 0;
   letter-spacing: 1px;  
   text-transform: uppercase;
-  color: #aaaaaa;
-  font-family: "Poppins", sans-serif;
+  color: #ffff;
+  font-family: Comic Sans MS;
 }
 
 .section-title h2::after {
@@ -399,7 +399,7 @@ section .container {
   font-size: 30px;
   font-weight: 700;
   text-transform: uppercase;
-  font-family: "Poppins", sans-serif;
+  font-family: Comic Sans MS;
   color: #fff;
 }
 
@@ -414,7 +414,7 @@ section .container {
 --------------------------------------------------------------*/
 .about-me .content h3 {
   font-weight: 700;
-  font-size: 20px;
+  font-size: 30px;
   color: #27656a
 ;
 }
@@ -486,7 +486,7 @@ section .container {
 .counts .count-box p {
   padding: 0;
   margin: 0;
-  font-family: "Raleway", sans-serif;
+  font-family: Comic Sans MS;
   font-size: 14px;
 }
 
@@ -506,7 +506,7 @@ section .container {
   text-transform: uppercase;
   display: block;
   font-weight: 600;
-  font-family: "Poppins", sans-serif;
+  font-family: Comic Sans MS;
   color: #fff;
 }
 
@@ -656,7 +656,7 @@ section .container {
   font-size: 18px;
   font-weight: 600;
   text-transform: uppercase;
-  font-family: "Poppins", sans-serif;
+  font-family: Comic Sans MS;
   color: #27656a
 ;
   margin-bottom: 10px;
@@ -757,7 +757,7 @@ section .container {
 .services .icon-box h4 a {
   color: #fff;
   font-size: 20px;
-  font-family: Arial, sans-serif;;
+  font-family: Comic Sans MS;
 }
 
 .services .icon-box p {
@@ -1054,7 +1054,7 @@ section .container {
   color: #fff;
   line-height: 24px;
   font-size: 14px;
-  margin: 0 0 0 52px;
+  margin: 0 0 0 67px;
 }
 
 .contact .info-box .social-links {
