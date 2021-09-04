@@ -41,7 +41,10 @@ body::before {
 }
 
 
-
+.bi-list::before {
+  content: "\f479";
+  vertical-align: -1.15em;
+}
 
 /**body::before {
   content: "";
@@ -393,7 +396,7 @@ section .container {
 
 .section-title h2::after {
   content: "";
-  width: 120px;
+  width: 106px;
   height: 1px;
   display: inline-block;
   background: #27656a
@@ -411,11 +414,7 @@ section .container {
   color: #fff;
 }
 
-@media (max-width: 991px) {
-  .section-title h2::after {
-    margin-left: -5px;
-  }
-}
+
 
 /*--------------------------------------------------------------
 # About
